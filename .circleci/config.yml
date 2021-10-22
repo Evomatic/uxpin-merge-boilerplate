@@ -13,6 +13,7 @@ jobs:
     working_directory: ~/project/
     steps:
       - checkout
+      - run: git reflog --all
       - run:
           name: 'Install dependencies'
           command: npm install
