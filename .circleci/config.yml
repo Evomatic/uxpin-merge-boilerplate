@@ -14,7 +14,7 @@ jobs:
     steps:
       - checkout
       - run: git fetch
-      - run: git checkout master
+      - run: git checkout dev
       - run:
           name: 'Install dependencies'
           command: npm install
