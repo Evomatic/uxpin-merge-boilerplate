@@ -11,8 +11,8 @@ module.exports = {
           'src/components/Icon/Icon.js',
           'src/components/MediaPlayer/MediaPlayer.js',
           'src/components/Table/Table.js',
-          // 'src/components/TrendLine/TrendLine.js',
-          // 'src/components/SimpleMap/SimpleMap.js',
+          'src/components/TrendLine/TrendLine.js',
+          'src/components/SimpleMap/SimpleMap.js',
         ],
       },
       {
