@@ -8,8 +8,7 @@ export default (
     mode="filled"
     size="m"
     stretched
-    type="primary"
-    uxpId="button">
+    type="primary">
     Let's Merge!
   </Button>
 );
