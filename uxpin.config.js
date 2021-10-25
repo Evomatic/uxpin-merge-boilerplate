@@ -6,13 +6,13 @@ module.exports = {
         name: 'General',
         include: [
           'src/components/Camera/Camera.js',
-          'src/components/CreditCard/CreditCard.jsx',
+          // 'src/components/CreditCard/CreditCard.jsx',
           'src/components/Greeting/Greeting.js',
-          // 'src/components/Icon/Icon.js',
-          // 'src/components/MediaPlayer/MediaPlayer.js',
-          // 'src/components/Table/Table.js',
-          // 'src/components/TrendLine/TrendLine.js',
-          // 'src/components/SimpleMap/SimpleMap.js',
+          'src/components/Icon/Icon.js',
+          'src/components/MediaPlayer/MediaPlayer.js',
+          'src/components/Table/Table.js',
+          'src/components/TrendLine/TrendLine.js',
+          'src/components/SimpleMap/SimpleMap.js',
         ],
       },
       {
@@ -21,7 +21,7 @@ module.exports = {
           'src/components/Button/Button.js',
           'src/components/Select/Select.js',
           // 'src/components/Select/components/SelectItem/SelectItem.js',
-          // 'src/components/TextField/TextField.jsx',
+          'src/components/TextField/TextField.jsx',
         ],
       },
       {
