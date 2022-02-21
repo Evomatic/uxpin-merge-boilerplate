@@ -25,4 +25,4 @@ jobs:
       #     command: npm run test
       - run:
           name: 'Push to UXPin'
-          command: ./node_modules/.bin/uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js
+          command: ./node_modules/.bin/uxpin-merge push --webpack-config ./uxpin.webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js
