@@ -13,11 +13,10 @@ jobs:
     working_directory: ~/project/
     steps:
       - checkout
-      - run: git fetch
-      - run: git checkout master
+      - run: git reflog --all
       - run:
           name: 'Install dependencies'
-          command: npm install
+          command: yarn install
       # - run:
       #     name: 'Check'
       #     command: npm run check
@@ -26,4 +25,4 @@ jobs:
       #     command: npm run test
       - run:
           name: 'Push to UXPin'
-          command: npm run push
+          command: ./node_modules/.bin/uxpin-merge push --webpack-config ./uxpin.webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js

@@ -2,6 +2,10 @@ import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import ButtonStyles from './Button.styles';
 
+
+/**
+ * @uxpindocurl https://uxpin.com/test
+ */
 const Button = (props) => (
   <ButtonStyles {...props}>
     {props.icon}

@@ -2,6 +2,10 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import StyledInput from './TextField.styles';
 
+
+/**
+ * @uxpindocurl https://uxpin.com/test
+ */
 export default class TextField extends PureComponent {
   static propTypes = {
     width: PropTypes.oneOf(['stretched', 'auto']),
